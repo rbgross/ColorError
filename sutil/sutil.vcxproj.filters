@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\rply-1.01\rply.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\DeviceMemoryLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\GLUTDisplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\glm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\HDRLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\ImageDisplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\ImageLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\MeshScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\ModelLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\Mouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\ObjLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\PlyLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\PPMLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\SampleScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\SunSky.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\sutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\glew.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\cuda\commonStructs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\cuda\helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\cuda\phong.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\cuda\random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\rply-1.01\rply.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\DeviceMemoryLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\GLUTDisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\glm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\HDRLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\ImageDisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\ImageLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\MeshScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\ModelLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\Mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\ObjLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\PlyLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\PPMLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sampleConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\SampleScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\SunSky.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\sutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\GL\glew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\GL\wglew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\cuda\obj_material.cu" />
+    <CustomBuild Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\cuda\phong.cu" />
+    <CustomBuild Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\cuda\triangle_mesh.cu" />
+    <CustomBuild Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\cuda\triangle_mesh_small.cu" />
+    <CustomBuild Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\lib\ptx\cuda_compile_ptx_generated_obj_material.cu.ptx" />
+    <None Include="..\lib\ptx\cuda_compile_ptx_generated_phong.cu.ptx" />
+    <None Include="..\lib\ptx\cuda_compile_ptx_generated_triangle_mesh.cu.ptx" />
+    <None Include="..\lib\ptx\cuda_compile_ptx_generated_triangle_mesh_small.cu.ptx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EA0AE974-3593-4F28-B29E-05355F92DB50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5FB7F3BC-9403-43DA-8A43-89781B6D0B6B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

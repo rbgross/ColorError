@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\color_error-master\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\color_error-master\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\color_error-master\color_error.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\color_error-master\Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\color_error-master\Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\color_error-master\helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\color_error-master\structs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\color_error-master\commonStructs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\color_error-master\phong.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\color_error-master\Random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\color_error-master\ray_generation.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\color_error-master\glass.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\color_error-master\reflective.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\color_error-master\sphere.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\color_error-master\sphere_shell.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\color_error-master\miss.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\color_error-master\checker.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\color_error-master\parallelogram.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\color_error-master\constantbg.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\color_error-master\phong.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\color_error-master\CMakelists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EA0AE974-3593-4F28-B29E-05355F92DB50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5FB7F3BC-9403-43DA-8A43-89781B6D0B6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PTX Files">
+      <UniqueIdentifier>{0B33BBAC-363D-4572-B492-F40BE20F2B7F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDA Files">
+      <UniqueIdentifier>{230D1620-E94B-42E2-AC05-B8AC7B87E80A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

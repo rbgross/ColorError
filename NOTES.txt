@@ -1,0 +1,133 @@
+STRUCTURE
+Functional files split largely into scene and renderer
+	Scene - creates Optix resources (context, program, buffers, materials, geometry, camera) and scene objects (balloons, planes)
+Render modes are interruptible, const fidelity, golden standard
+
+FUNCTIONALITY
+ESC writes trace data to file and exits
+'t' switches between const fidelity and interruptible rendering modes
+'a' switches on and off animation
+'g' golden standard rendering vs const fidelity or interruptible, depending on render mode; this writes a number of .ppm image files to the folder
+
+BUGS
+animation stops after a short amount of time the program is open, and can't be restarted with 'a' (FIXED)
+Spacebar to destroy balloons in scene class doesn't work (crashes program)
+Interruptible rendering appears to render at both a lower framerate and diminished quality, compared to the const fidelity version
+
+NOTES
+GoldenStandard enum doesn't do anything in Display function
+RayTraceData is a struct in Scene
+InitialCameraData is a struct in Scene
+SphereShell is a struct in Scene
+Balloon is an inner class of Scene
+BasicLight is a struct in structs.h
+Scene's "Context" is the Optix context
+
+TODO
+Drive in scene animation off sutilCurrentTime
+
+PROGRAM FLOW
+*Color Error -> Main
+	*Renderer -> InitGLUT
+	*Renderer -> Run
+		*Renderer -> InitGLUTWindow
+		*Scene -> get_width
+		*Scene -> get_height
+		*Scene -> InitScene
+			*Scene -> InitContext
+				*Scene -> CreateRayGenPrograms
+				*Scene -> CreateBuffers
+				*Scene -> InitCamera
+					*InitialCameraData -> Constructor
+				*Scene -> CreateGeometry
+					*Scene -> CreateBalloons
+						*Scene -> CreateGlassMaterial
+						*Scene -> CreateReflectiveMaterial
+					*Scene -> CreatePlanes
+						*Scene -> CreateCheckerMaterial
+						*Scene -> CreateReflectiveMaterial
+						*Scene -> CreatePhongMaterial
+					*Scene -> CreateOptixGraph
+				*Scene -> CreateLights
+				*Scene -> ValidateAndCompileContext
+			*Scene -> ValidateAndCompileContext
+		*Renderer -> InitLatestRayTraceData
+			*Camera -> getEyeUVW
+			*RayTraceData -> Constructor
+		*Renderer -> InitInterruptibleRendering
+			*Renderer -> InitInterruptibleRayTraceData
+			*Renderer -> RenderAndRecordLatestThumbnail
++				Scene -> ThumbnailTrace
++				Scene -> GetThumbnailBuffer
++				Scene -> GetThumbnailWidth
++				Scene -> GetThumbnailHeight
+		*Renderer -> InitConstantFidelityRayTraceData
+		*Renderer -> ResetGLUTView
+		*Renderer -> InitializeTimer
+	*Renderer -> Timer
+		*Renderer -> Animation
+		AND
+		*Renderer -> RenderAndRecordLatestThumbnail
++				Scene -> ThumbnailTrace
++				Scene -> GetThumbnailBuffer
++				Scene -> GetThumbnailWidth
++				Scene -> GetThumbnailHeight
+		*Renderer -> InitConstantFidelityRayTraceData
++		Renderer -> SaveInterruptibleRayTraceDataAndErrors
+		OR
++		Renderer -> SaveConstFidelityRayTraceData
+	*Renderer -> Display
++		Renderer -> ConstFidelityDisplay
+		OR
++		Renderer -> InterruptibleDoubleBufferDisplay
+	*Renderer -> KeyPressed
++		Scene -> KeyPressed
+		AND
++		Renderer -> WriteInterruptibleRayTraceDataAndErrorsToFile
++		Renderer -> WriteConstFidelityRayTraceDataToFile
++		Renderer -> Quit
+		OR
++		Renderer -> ResetInterruptibleRendering
++		Renderer -> ClearStoredRayTraceData
+		OR
++		Renderer -> WriteInterruptibleRayTraceDataAndErrorsToFile
++		Renderer -> GoldenStandardRenderingAgainstInterruptible
+		OR
++		Renderer -> WriteConstFidelityRayTraceDataToFile
++		Renderer -> GoldenStandardRenderingAgainstConstFidelity
+	*Renderer -> Resize
+		*Mouse -> handleResize
++		Renderer -> UpdateLatestRayTraceData
++		Renderer -> ResetInterruptibleRendering
+		*Scene -> ResizeScene
++			Scene -> ResizeOutputBuffer
++			Scene -> ResizeVarianceBuffer
++			Scene -> ResizeThumbnailBuffer
++			Scene -> ResizeDownsampleBuffer
+		*Renderer -> ResetGLUTView
+	*Renderer -> MouseButton
+		*Mouse -> handleMouseFunc
+		*PinholeCamera -> getEyeUVW
+		*RayTraceData -> Reset
+		*Renderer -> RenderAndRecordLatestThumbnail
++				Scene -> ThumbnailTrace
++				Scene -> GetThumbnailBuffer
++				Scene -> GetThumbnailWidth
++				Scene -> GetThumbnailHeight
+	*Renderer -> MouseMotion
+		*Mouse -> handleMoveFunc
+		*PinholeCamera -> getEyeUVW
+		*RayTraceData -> Reset
+		*Renderer -> RenderAndRecordLatestThumbnail
++				Scene -> ThumbnailTrace
++				Scene -> GetThumbnailBuffer
++				Scene -> GetThumbnailWidth
++				Scene -> GetThumbnailHeight
+	*Renderer -> Idle
+	
+	
+	
+RYAN
+Scene -> OracleTrace
+	
+		
