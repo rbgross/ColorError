@@ -1,6 +1,6 @@
-C:/Users/Ryan/NCSU/Color Error/CMakeFiles/ALL_BUILD.dir
-C:/Users/Ryan/NCSU/Color Error/CMakeFiles/ZERO_CHECK.dir
-C:/Users/Ryan/NCSU/Color Error/color_error-master/CMakeFiles/color_error.dir
-C:/Users/Ryan/NCSU/Color Error/nvcommon/CMakeFiles/nvCommon.dir
-C:/Users/Ryan/NCSU/Color Error/nvcommon/nvModel/CMakeFiles/nvModel.dir
-C:/Users/Ryan/NCSU/Color Error/sutil/CMakeFiles/sutil.dir
+C:/Users/Ryan/NCSU/ColorError/CMakeFiles/ALL_BUILD.dir
+C:/Users/Ryan/NCSU/ColorError/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Ryan/NCSU/ColorError/color_error-master/CMakeFiles/color_error.dir
+C:/Users/Ryan/NCSU/ColorError/nvcommon/CMakeFiles/nvCommon.dir
+C:/Users/Ryan/NCSU/ColorError/nvcommon/nvModel/CMakeFiles/nvModel.dir
+C:/Users/Ryan/NCSU/ColorError/sutil/CMakeFiles/sutil.dir

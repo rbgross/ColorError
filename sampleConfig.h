@@ -20,4 +20,4 @@
  */
 
 #define SAMPLES_DIR "C:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/SDK"
-#define SAMPLES_PTX_DIR "C:\\Users\\Ryan\\NCSU\\Color Error\\lib\\ptx"
+#define SAMPLES_PTX_DIR "C:\\Users\\Ryan\\NCSU\\ColorError\\lib\\ptx"

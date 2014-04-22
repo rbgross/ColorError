@@ -1,0 +1,1 @@
+Parse error (Details: Function "_rtContextCompile" caught exception: 32 bit PTX not supported in 64 bit applications as of OptiX 3.0, [1573431])

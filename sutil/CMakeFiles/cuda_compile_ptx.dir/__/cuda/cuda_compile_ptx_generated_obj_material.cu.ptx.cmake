@@ -57,17 +57,17 @@ endif()
 # Set these up as variables to make reading the generated file easier
 set(CMAKE_COMMAND "C:/Program Files (x86)/CMake 2.8/bin/cmake.exe") # path
 set(source_file "C:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/cuda/obj_material.cu") # path
-set(NVCC_generated_dependency_file "C:/Users/Ryan/NCSU/Color Error/sutil/CMakeFiles/cuda_compile_ptx.dir/__/cuda/cuda_compile_ptx_generated_obj_material.cu.ptx.NVCC-depend") # path
-set(cmake_dependency_file "C:/Users/Ryan/NCSU/Color Error/sutil/CMakeFiles/cuda_compile_ptx.dir/__/cuda/cuda_compile_ptx_generated_obj_material.cu.ptx.depend") # path
+set(NVCC_generated_dependency_file "C:/Users/Ryan/NCSU/ColorError/sutil/CMakeFiles/cuda_compile_ptx.dir/__/cuda/cuda_compile_ptx_generated_obj_material.cu.ptx.NVCC-depend") # path
+set(cmake_dependency_file "C:/Users/Ryan/NCSU/ColorError/sutil/CMakeFiles/cuda_compile_ptx.dir/__/cuda/cuda_compile_ptx_generated_obj_material.cu.ptx.depend") # path
 set(CUDA_make2cmake "C:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/CMake/FindCUDA/make2cmake.cmake") # path
 set(CUDA_parse_cubin "C:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/CMake/FindCUDA/parse_cubin.cmake") # path
 set(build_cubin OFF) # bool
 set(CUDA_HOST_COMPILER "$(VCInstallDir)bin") # bool
 # We won't actually use these variables for now, but we need to set this, in
 # order to force this file to be run again if it changes.
-set(generated_file_path "C:/Users/Ryan/NCSU/Color Error/lib/ptx") # path
-set(generated_file_internal "C:/Users/Ryan/NCSU/Color Error/lib/ptx/cuda_compile_ptx_generated_obj_material.cu.ptx") # path
-set(generated_cubin_file_internal "C:/Users/Ryan/NCSU/Color Error/lib/ptx/cuda_compile_ptx_generated_obj_material.cu.ptx.cubin.txt") # path
+set(generated_file_path "C:/Users/Ryan/NCSU/ColorError/lib/ptx") # path
+set(generated_file_internal "C:/Users/Ryan/NCSU/ColorError/lib/ptx/cuda_compile_ptx_generated_obj_material.cu.ptx") # path
+set(generated_cubin_file_internal "C:/Users/Ryan/NCSU/ColorError/lib/ptx/cuda_compile_ptx_generated_obj_material.cu.ptx.cubin.txt") # path
 
 set(CUDA_REMOVE_GLOBAL_MEMORY_SPACE_WARNING ON)
 
@@ -75,7 +75,7 @@ set(CUDA_NVCC_EXECUTABLE "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v5.
 set(CUDA_NVCC_FLAGS --use_fast_math;--compiler-options;/D_USE_MATH_DEFINES ;; ) # list
 
 set(nvcc_flags -m64;-D_USE_MATH_DEFINES;-DNOMINMAX;-DGLEW_BUILD;-DGLUT_FOUND;-DGLUT_NO_LIB_PRAGMA) # list
-set(CUDA_NVCC_INCLUDE_ARGS "-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v5.5/include;-IC:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/include;-IC:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/sutil;-IC:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/include/optixu;-IC:/Users/Ryan/NCSU/Color Error;-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v5.5/include;-IC:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/support/freeglut/include;-IC:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/sutil;-IC:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/cuda") # list (needs to be in quotes to handle spaces properly).
+set(CUDA_NVCC_INCLUDE_ARGS "-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v5.5/include;-IC:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/include;-IC:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/sutil;-IC:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/include/optixu;-IC:/Users/Ryan/NCSU/ColorError;-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v5.5/include;-IC:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/support/freeglut/include;-IC:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/sutil;-IC:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/cuda") # list (needs to be in quotes to handle spaces properly).
 set(format_flag "-ptx") # string
 
 if(build_cubin AND NOT generated_cubin_file)

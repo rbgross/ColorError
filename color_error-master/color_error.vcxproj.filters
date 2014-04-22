@@ -68,6 +68,38 @@
     <CustomBuild Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\color_error-master\CMakelists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\lib\ptx\color_error_generated_ray_generation.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="..\lib\ptx\color_error_generated_glass.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="..\lib\ptx\color_error_generated_reflective.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="..\lib\ptx\color_error_generated_sphere.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="..\lib\ptx\color_error_generated_sphere_shell.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="..\lib\ptx\color_error_generated_miss.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="..\lib\ptx\color_error_generated_checker.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="..\lib\ptx\color_error_generated_parallelogram.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="..\lib\ptx\color_error_generated_constantbg.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="..\lib\ptx\color_error_generated_phong.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
     <Filter Include="Source Files">
       <UniqueIdentifier>{EA0AE974-3593-4F28-B29E-05355F92DB50}</UniqueIdentifier>
     </Filter>

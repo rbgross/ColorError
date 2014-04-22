@@ -1,5 +1,7 @@
 1) Make in CMake - configure and generate, VS 11 64 bit
 2) Copy optix .dlls into color_error-master folder (64 bit)
 3) Open ALL_BUILD project
-4) Add Libraries/Color Error path to include directories (under color_error)
-5) Add GLUT_BUILDING_LIB to Preprocessor defintions (under color_error)
+4) Add Libraries/Color Error path to C/C++ -> General -> Additional Include Directories (under color_error)
+5) Add GLUT_BUILDING_LIB to C/C++ -> Preprocessor -> Preprocessor defintions (under color_error)
+
+Rebuilding cuda files is done from inside visual studio

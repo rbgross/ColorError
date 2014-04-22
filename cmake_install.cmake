@@ -29,9 +29,9 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("C:/Users/Ryan/NCSU/Color Error/color_error-master/cmake_install.cmake")
-  INCLUDE("C:/Users/Ryan/NCSU/Color Error/sutil/cmake_install.cmake")
-  INCLUDE("C:/Users/Ryan/NCSU/Color Error/nvcommon/cmake_install.cmake")
+  INCLUDE("C:/Users/Ryan/NCSU/ColorError/color_error-master/cmake_install.cmake")
+  INCLUDE("C:/Users/Ryan/NCSU/ColorError/sutil/cmake_install.cmake")
+  INCLUDE("C:/Users/Ryan/NCSU/ColorError/nvcommon/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -41,7 +41,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "C:/Users/Ryan/NCSU/Color Error/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "C:/Users/Ryan/NCSU/ColorError/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "C:/Users/Ryan/NCSU/Color Error/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "C:/Users/Ryan/NCSU/ColorError/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

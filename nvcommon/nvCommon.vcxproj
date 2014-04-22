@@ -57,26 +57,26 @@
   <PropertyGroup Label="UserMacros" />
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Ryan\NCSU\Color Error\lib\Debug\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Ryan\NCSU\ColorError\lib\Debug\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">nvCommon.dir\Debug\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">nvCommon</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Ryan\NCSU\Color Error\lib\Release\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Ryan\NCSU\ColorError\lib\Release\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">nvCommon.dir\Release\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">nvCommon</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Ryan\NCSU\Color Error\lib\MinSizeRel\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Ryan\NCSU\ColorError\lib\MinSizeRel\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">nvCommon.dir\MinSizeRel\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">nvCommon</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Ryan\NCSU\Color Error\lib\RelWithDebInfo\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Ryan\NCSU\ColorError\lib\RelWithDebInfo\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">nvCommon.dir\RelWithDebInfo\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">nvCommon</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include\optixu;C:\Users\Ryan\NCSU\Color Error;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include\optixu;C:\Users\Ryan\NCSU\ColorError;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -95,10 +95,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_USE_MATH_DEFINES;NOMINMAX;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include\optixu;C:\Users\Ryan\NCSU\Color Error;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include\optixu;C:\Users\Ryan\NCSU\ColorError;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include\optixu;C:\Users\Ryan\NCSU\Color Error;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include\optixu;C:\Users\Ryan\NCSU\ColorError;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -108,7 +108,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include\optixu;C:\Users\Ryan\NCSU\Color Error;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include\optixu;C:\Users\Ryan\NCSU\ColorError;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4355;4996</DisableSpecificWarnings>
@@ -128,10 +128,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;NOMINMAX;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include\optixu;C:\Users\Ryan\NCSU\Color Error;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include\optixu;C:\Users\Ryan\NCSU\ColorError;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include\optixu;C:\Users\Ryan\NCSU\Color Error;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include\optixu;C:\Users\Ryan\NCSU\ColorError;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -141,7 +141,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include\optixu;C:\Users\Ryan\NCSU\Color Error;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include\optixu;C:\Users\Ryan\NCSU\ColorError;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4355;4996</DisableSpecificWarnings>
@@ -159,10 +159,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;NOMINMAX;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include\optixu;C:\Users\Ryan\NCSU\Color Error;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include\optixu;C:\Users\Ryan\NCSU\ColorError;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include\optixu;C:\Users\Ryan\NCSU\Color Error;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include\optixu;C:\Users\Ryan\NCSU\ColorError;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -172,7 +172,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include\optixu;C:\Users\Ryan\NCSU\Color Error;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include\optixu;C:\Users\Ryan\NCSU\ColorError;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -190,10 +190,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include\optixu;C:\Users\Ryan\NCSU\Color Error;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include\optixu;C:\Users\Ryan\NCSU\ColorError;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include\optixu;C:\Users\Ryan\NCSU\Color Error;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\sutil;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\include\optixu;C:\Users\Ryan\NCSU\ColorError;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -205,7 +205,7 @@
     <CustomBuild Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\CMakeLists.txt">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/nvcommon/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/SDK" "-BC:/Users/Ryan/NCSU/Color Error" --check-stamp-file "C:\Users\Ryan\NCSU\Color Error\nvcommon\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/SDK" -BC:/Users/Ryan/NCSU/ColorError --check-stamp-file C:\Users\Ryan\NCSU\ColorError\nvcommon\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -214,11 +214,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/nvcommon/CMakeLists.txt;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\CMakeLists.txt;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Ryan\NCSU\Color Error\nvcommon\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Ryan\NCSU\ColorError\nvcommon\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/nvcommon/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/SDK" "-BC:/Users/Ryan/NCSU/Color Error" --check-stamp-file "C:\Users\Ryan\NCSU\Color Error\nvcommon\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/SDK" -BC:/Users/Ryan/NCSU/ColorError --check-stamp-file C:\Users\Ryan\NCSU\ColorError\nvcommon\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -227,11 +227,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/nvcommon/CMakeLists.txt;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\CMakeLists.txt;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Ryan\NCSU\Color Error\nvcommon\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Ryan\NCSU\ColorError\nvcommon\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/nvcommon/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/SDK" "-BC:/Users/Ryan/NCSU/Color Error" --check-stamp-file "C:\Users\Ryan\NCSU\Color Error\nvcommon\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/SDK" -BC:/Users/Ryan/NCSU/ColorError --check-stamp-file C:\Users\Ryan\NCSU\ColorError\nvcommon\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -240,11 +240,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/nvcommon/CMakeLists.txt;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\CMakeLists.txt;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Ryan\NCSU\Color Error\nvcommon\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Ryan\NCSU\ColorError\nvcommon\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/nvcommon/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/SDK" "-BC:/Users/Ryan/NCSU/Color Error" --check-stamp-file "C:\Users\Ryan\NCSU\Color Error\nvcommon\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/SDK" -BC:/Users/Ryan/NCSU/ColorError --check-stamp-file C:\Users\Ryan\NCSU\ColorError\nvcommon\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -253,7 +253,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Program Files/NVIDIA Corporation/OptiX SDK 3.0.1/SDK/nvcommon/CMakeLists.txt;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\CMakeLists.txt;C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Ryan\NCSU\Color Error\nvcommon\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Ryan\NCSU\ColorError\nvcommon\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
@@ -277,7 +277,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Program Files\NVIDIA Corporation\OptiX SDK 3.0.1\SDK\nvcommon\src\framebufferObject.cpp"  />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/Users/Ryan/NCSU/Color Error/ZERO_CHECK.vcxproj">
+    <ProjectReference Include="C:/Users/Ryan/NCSU/ColorError/ZERO_CHECK.vcxproj">
       <Project>29ECD96C-A379-4013-88DE-721D257E5577</Project>
     </ProjectReference>
   </ItemGroup>
